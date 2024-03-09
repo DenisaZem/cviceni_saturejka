@@ -8,7 +8,12 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .saturejka {
     width: 30%;
 }
@@ -20,11 +25,16 @@ h2 {
 
 .mainContainer {
     background-color: rgb(255, 255, 255);
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .home__pictures {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row;
 }
 
