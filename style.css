@@ -3,9 +3,32 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saturejka {
+    width: 30%;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+.mainContainer {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.home__pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+.food {
+    width: 30%;
+
 }
