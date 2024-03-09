@@ -4,9 +4,13 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .head {
     display: flex;
@@ -14,8 +18,13 @@ html {
     align-items: center;
     flex-direction: column;
 }
+
+.motto{ 
+    width: 50%;
+}
+
 .saturejka {
-    width: 30%;
+    width: 40%;
 }
 
 h1,
@@ -29,6 +38,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 90%;
 }
 
 .home__pictures {
@@ -36,9 +46,19 @@ h2 {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    margin: 20px;
 }
 
 .food {
     width: 30%;
+}
 
+.container_texts {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin: 10px;
+    width: 50%;
 }
